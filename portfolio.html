@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
     <title>Porfólio</title>
+
 </head>
+
 <body>
+
+<a class="github-link" href="https://github.com/GabrieLlLisboa" target="_blank" rel="noopener" aria-label="Meu GitHub">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" aria-hidden="true">
+    <path fill="currentColor" d="M12 0.297C5.37 0.297 0 5.667 0 12.297c0 5.302 3.438 9.8 8.205 
+    11.387.6.113.82-.258.82-.577 0-.285-.011-1.04-.016-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 
+    1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.495.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.332-5.466-5.932 
+    0-1.31.469-2.382 1.236-3.222-.124-.303-.536-1.527.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.018.005 
+    2.045.138 3.003.404 2.292-1.552 3.298-1.23 3.298-1.23.655 1.649.243 2.873.12 3.176.77.84 
+    1.235 1.912 1.235 3.222 0 4.61-2.804 5.624-5.475 5.922.43.372.823 1.103.823 2.222 
+    0 1.604-.015 2.896-.015 3.286 0 .322.217.694.825.576C20.565 22.092 24 17.595 24 12.297 
+    24 5.667 18.627 0.297 12 0.297z"/>
+  </svg>
+</a>
+
+
+
     <h1 id="primeiramensagem">
         Gabriel Sampaio - Desenvolvedor Front-End.
     </h1>
@@ -14,12 +34,34 @@
         Transformo linhas de código em experiências que capturam olhares e conectam pessoas.
     </h1>
 
- <h1 id="objetivo">Qual o objetivo deste site?</h1>
- <h1 id="resposta">O Objetivo é: Você conhecer mais sobre meu trabalho.</h1>
- <h1 id="sobremim">Sobre mim:</h1>
- <h1 id="sobremim2">Como eu já disse anteriormente, meu nome é Gabriel Lisboa, no discord, bielsec. Eu sou um programador e estudante da área de Segurança Cibernetica.</h1>
- <h1 id="linguagens">Quais são as linguagens de programação e marcação que atuo?</h1>
- <h1 id="linguagensdeprogramacao">Linguagens de programação: JavaScript, CSS e Python.</h1>
- <h1 id="linguagensdemarcacao">Linguagens de marcação: LaTeX e HTML.</h1>
+    <h1 id="qualoobjetivo">
+        Sobre mim:
+    </h1>
+
+    <h1 id="sobremim">
+        Olá! Meu nome é <span class="destaque">Gabriel Lisboa</span>, sou um Desenvolvedor Front-End. Tenho experiência em HTML, CSS, JavaScript e estou sempre aprendendo novas tecnologias para entregar projetos cada vez melhores.
+    </h1>
+
+
+
+
+    <script>
+
+        const qualoobjetivoElement = document.querySelectorAll('#qualoobjetivo');
+        window.addEventListener('scroll', () => {
+            const rect = qualoobjetivoElement.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                qualoobjetivoElement.classList.add('show');
+
+
+            }
+
+
+
+        });
+            
+
+    </script>
 </body>
+
 </html>

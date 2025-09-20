@@ -8,7 +8,8 @@ body {
     font-family: monospace;
     line-height: 1.6;
     color: black;
-    background-color: white
+    background-color: white;
+    min-height: 200vh
 }
 
 
@@ -21,7 +22,7 @@ body {
     white-space: nowrap; 
     overflow: hidden; 
     width: 0; 
-    animation: typing 5s steps(30, end) forwards, blink 0.7s step-end infinite;
+    animation: typing 3s steps(30, end) forwards, blink 0.7s step-end infinite;
 }
 
 #segundamensagem {
@@ -31,9 +32,56 @@ body {
 
 }
 
+#qualoobjetivo {
+
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 10000
+
+}
+
+#sobremim {
+
+    text-align: center;
+
+
+    }
+
+.destaque {
+
+    color: blue;
+    font-weight: bold;
+
+}
+
 
 
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform .18s ease, background .18s ease;
+}
+
+.github-link svg {
+    fill: #111;
+    width: 28px;
+    height: 28px;
+}
+
+.github-link:hover,
+.github-link:focus {
+    transform: translateY(-3px) scale(1.1);
+    background: rgba(0,0,0,0.06);
+    outline: none;
 }
