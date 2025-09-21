@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+}
+
+
+#apresentacao {
+
+
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+}
+
+#aslinguagens {
+
+ text-align: center;
+ font-size: 30px;
+
+}
+
+#html1 {
+
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+#quais {
+
+    font-size: 30px;
+    text-align: center;
+
+}

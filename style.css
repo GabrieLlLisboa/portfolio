@@ -12,25 +12,28 @@ body {
     min-height: 200vh
 }
 
+/* Pagina */
 
 #primeiramensagem {
     text-align: center;
     color: black;
     font-size: 40px;
     font-family: monospace;
-    border-right: 3px solid black; 
-    white-space: nowrap; 
-    overflow: hidden; 
-    width: 0; 
+    border-right: 3px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
     animation: typing 3s steps(30, end) forwards, blink 0.7s step-end infinite;
 }
 
 #segundamensagem {
 
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 
 }
+
+/* Sobre mim */
 
 #qualoobjetivo {
 
@@ -38,7 +41,6 @@ body {
     margin-top: 80px;
     font-size: 40px;
     font-weight: 10000
-
 }
 
 #sobremim {
@@ -46,7 +48,7 @@ body {
     text-align: center;
 
 
-    }
+}
 
 .destaque {
 
@@ -55,12 +57,61 @@ body {
 
 }
 
+/* Projetos */
 
+#projetos {
+
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.card {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.card .descricao {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+
+/* Efeitos */
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
 }
+
+/* Logo do GitHub*/
 
 .github-link {
     display: inline-flex;
@@ -82,6 +133,6 @@ body {
 .github-link:hover,
 .github-link:focus {
     transform: translateY(-3px) scale(1.1);
-    background: rgba(0,0,0,0.06);
+    background: rgba(0, 0, 0, 0.06);
     outline: none;
 }
