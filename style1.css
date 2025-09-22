@@ -2,6 +2,7 @@ body {
     background-color: white;
     color: black;
     font-family: monospace;
+    text-align: center;
 }
 
 
@@ -15,8 +16,8 @@ body {
 
 #aslinguagens {
 
- text-align: center;
- font-size: 30px;
+    text-align: center;
+    font-size: 30px;
 
 }
 
@@ -32,5 +33,61 @@ body {
 
     font-size: 30px;
     text-align: center;
+
+}
+
+
+#html {
+
+    text-align: center;
+    font-size: 25px;
+
+}
+
+/*  CSS */
+
+
+#css1 {
+
+    font-size: 40px;
+
+}
+
+#css {
+
+    font-size: 25px;
+
+}
+
+#JavaScript1 {
+    font-size: 40px;
+}
+
+#JavaScript {
+
+    font-size: 25px;
+
+}
+
+#C1 {
+
+    font-size: 40px;
+}
+
+#C2 {
+
+    font-size: 25px;
+}
+
+/*  Especificações  */
+
+
+
+
+#spannn {
+
+
+    color: red;
+    font-weight: bold;
 
 }
